@@ -1,0 +1,30 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 45px;
+}
+.header{
+  margin-bottom: 15px;
+}
+.Box{
+  width: 320px;
+  background-color: burlywood;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+  align-items: center;
+  border-radius: 10px;
+}
+input{
+  padding: 7px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid dimgray;
+  margin-bottom: 15px;
+}
